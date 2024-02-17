@@ -6,32 +6,22 @@ theme:
   palette:
         primary: 'white'
         accent: 'green'
+  language: en
   
   features:
     - navigation.sections
   features:
     - header.autohide
     - announce.dismiss
-plugins:
-  - search:
-      lang: pt-br
-
 
 extra:
-  alternate:
-    - name: English
-      link: /en/ 
-      lang: en
-    - name: Português
-      link: /pt/
-      lang: de
   social:
     - icon: fontawesome/brands/youtube 
       link: https://www.youtube.com/channel/UC-4iINUCd8JtlBh2eVHk0Ig
     - icon: fontawesome/brands/github
       link: https://github.com/petalflow
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/convutell
+    - icon: fontawesome/brands/dev
+      link: https://dev.to/petalflow
   generator: false
 
 repo_url: https://github.com/petalflow
